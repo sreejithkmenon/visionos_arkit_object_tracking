@@ -25,7 +25,7 @@ class AppState {
 
     // MARK: - ARKit state
 
-    private var arkitSession = ARKitSession()
+    private let arkitSession = ARKitSession()
     
     private var objectTracking: ObjectTrackingProvider? = nil
     
